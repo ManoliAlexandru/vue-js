@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<div id="calculator">
+  <calculate operator="+"></calculate>
+  <calculate operator="-"></calculate>
+  <calculate operator="*"></calculate>
+  <calculate operator="/"></calculate>
+</div>
+
+<script type="text/x-template" id="calc-template">
+  <div>
+    <input type="text" v-model="x">
+    <button>{{operator}}</button>
+    <input type="text" v-model="y">
+    <button>{{result(operator)}}</button>
+  </div>
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="app.js"></script>
+</body>
+</html>
