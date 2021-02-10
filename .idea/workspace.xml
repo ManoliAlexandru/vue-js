@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebabc89-24a0-4dd3-bd0b-bb687624a856" name="Default Changelist" comment="" />
+    <list default="true" id="0ebabc89-24a0-4dd3-bd0b-bb687624a856" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-calculator/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-calculator/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-calculator/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-calculator/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-calculator/src/components/Calculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-calculator/src/components/Calculator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-show-hide-demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-show-hide-demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-sort/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-sort/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-sort/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-sort/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-todo-list/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-todo-list/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-todo-list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-todo-list/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-todo-list/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-todo-list/theme.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -56,6 +68,7 @@
       <workItem from="1612772830371" duration="13323000" />
       <workItem from="1612802255934" duration="6509000" />
       <workItem from="1612909963434" duration="898000" />
+      <workItem from="1612956582071" duration="3238000" />
     </task>
     <servers />
   </component>

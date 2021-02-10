@@ -15,9 +15,13 @@ export default {
       y: ""
     }
   },
+  // todo пропс нужно прописывать как объект
   props: ["operator"],
   methods: {
+    //todo исправить название
     result(opearator) {
+      // todo конкатинирование должно быть через обратные ковычки / шаблонные строки
+      // todo сделать и без eval
       return eval(Number(this.x) + opearator + Number(this.y))
     }
   }

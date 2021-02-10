@@ -9,7 +9,10 @@
 </head>
 <body>
 <div id="app">
-  <input type="checkbox" id="hide" @click="visible=!visible">
+<!--  todo обработка событий должна быть толко в методах, visible=!visible убрать в метод -->
+<!--  todo сделать без @click -->
+  <input type="checkbox" id="hide" @click="visible = !visible">
+<!--  todo сделать по другому-->
   <label for="hide">{{visible ? "Hide Price" : "Show Price"}}</label>
 
   <table border="1px" width="50%" cellpadding="5">
@@ -17,6 +20,7 @@
       <th>Name</th>
       <th v-show="visible">Price</th>
     </tr>
+<!--  todo добавить ключ  -->
     <tr v-for="el in items">
       <td>{{el.name}}</td>
       <td v-show="visible">{{el.price}}</td>

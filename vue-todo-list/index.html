@@ -14,6 +14,9 @@
     <h1>{{ title }}</h1>
 
     <div class="form-control">
+<!--      todo v-bind, v-on устаревший синтаксиc, переделать-->
+<!--      todo подумать и сделать без использования метода inputChangeHandler (v-model)-->
+<!--      todo устранить ошибку-->
       <input
         type="text"
         v-bind:placeholder="placeholder"
@@ -23,15 +26,18 @@
       />
     </div>
 
+<!--   todo поставить круглые скобки где они нужны -->
     <button class="btn" v-on:click="addNewNote">Add</button>
     <hr>
 
     <ul class="list">
+<!--    todo почитать про ключи в циклах    -->
       <li class="list-item" v-for="(myNote, index) in notes">
         {{ toUpperCase(myNote) }}
         <button class="btn danger" v-on:click="removeNote(index)">Delete</button>
       </li>
     </ul>
+<!--    todo написать по другому сравнение-->
     <div v-if="notes.length === 0">Заметок нет. Добавьте первую</div>
     <hr>
     <div>
@@ -39,6 +45,8 @@
     </div>
   </div>
 </div>
+
+<!-- todo мы сейчас работает со второй версией, 3я пока что в бета тесте -->
 <script src="https://unpkg.com/vue@next"></script>
 <script src="app.js"></script>
 </body>

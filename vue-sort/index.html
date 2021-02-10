@@ -21,6 +21,20 @@
       <td>{{el.price}}</td>
     </tr>
   </table>
+
+  <div>
+    <input v-model="selectedLang" type="radio" id="contactChoice1"
+           name="contact" value="javaScript">
+    <label for="contactChoice1">JavaScript</label>
+
+    <input v-model="selectedLang" type="radio" id="contactChoice2"
+           name="contact" value="python">
+    <label  for="contactChoice2">Python</label>
+
+    <input v-model="selectedLang" type="radio" id="contactChoice3"
+           name="contact" value="java">
+    <label for="contactChoice3">Java</label>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
